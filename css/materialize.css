@@ -39,7 +39,6 @@
   width: 100%;
   top: 70%;
   left: 50%;
-  font-display: 'Times New Roman';
   opacity: 1;
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
@@ -57,7 +56,8 @@
 
 .hover-details span{
   color: #fff;
-  font-weight: 250;
+  font-family:monospace;
+  font-weight: bolder;
   letter-spacing: 0.075em;
   margin-bottom: 0.25em;
   text-transform: uppercase;
@@ -4936,7 +4936,6 @@ small {
 .card .card-image img {
   display: block;
   border-radius: 2px 2px 0 0;
-  position: relative;
   left: 0;
   right: 0;
   top: 0;
