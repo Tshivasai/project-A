@@ -1,0 +1,105 @@
+<html>
+        <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta http-equiv="X-UA-Compatible" content="ie=edge">
+          <!--Import Google Icon Font-->
+          <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+          <!--Import materialize.css-->
+          <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+            <!--Import Material Icons-->
+          <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+          <!--Let browser know website is optimized for mobile-->
+          <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+          <!-- Compiled and minified CSS -->
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+           <!-- Compiled and minified JavaScript -->
+           <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+           <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+           <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+           <script>
+
+               //DropDown More in Navbar
+             $(document).ready(function(){
+               $('.sidenav').sidenav();
+               $(".dropdown-trigger").dropdown();
+             });
+
+           </script>
+
+        
+           <style>
+            .nav-wrapper {
+              background-color: #2f2f37;
+            }   
+           </style>
+        </head>
+    
+        <body>
+
+             <!--Navbar-->
+    <div class="navbar">
+            <div class="navbar">
+                  <ul id="dropdown-more" class="dropdown-content">
+                          <li><a href="#!">About</a></li>
+                          <li><a href="#!">Contact</a></li>
+                          <li class="divider"></li>
+                          <li><a href="">Advertise</a></li>
+                        </ul>
+              <nav class="nav-wrapper">
+            
+        <div class="row">
+          <div class="col s2 offset-s10 ">
+                  </div>   
+                  <ul class="left hide-on-med-and-down">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">News</a></li>
+                    <li><a href=""></a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a class="dropdown-trigger" href="#!" data-target="dropdown-more">More<i class="material-icons right">arrow_drop_down</i></a></li>
+                  </ul>
+                </div>
+             </nav>
+        </div>
+    </div>
+
+    <!-- Second navbar-->
+    <div class="navbar">
+            <div class="navbar">
+                  <ul id="dropdown-more" class="dropdown-content">
+                          <li><a href="#!">About</a></li>
+                          <li><a href="#!">Contact</a></li>
+                          <li class="divider"></li>
+                          <li><a href="">Advertise</a></li>
+                        </ul>
+              <nav class="nav-wrapper green accent-2">
+            
+        <div class="row">
+          <div class="col s2 offset-s10 ">
+          <a href="#" class="brand-logo " style="top: 40px"><img src="image.png" class="z-depth-3 circle" width="120px" height="120px" ></a>
+                  </div>   
+                <a href="#" class="sidenav-trigger" data-target="mobile-links">
+                    <i class="material-icons">menu</i>
+                  </a> 
+                  <ul class="left hide-on-med-and-down">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">News</a></li>
+                    <li><a href=""></a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a class="dropdown-trigger" href="#!" data-target="dropdown-more">More<i class="material-icons right">arrow_drop_down</i></a></li>
+                  </ul>
+                </div>
+             </nav>
+        </div>
+    </div>
+
+          <!-- For Mobile view-->
+            <ul class="sidenav" id="mobile-links">
+              <li><a href="">Home</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Contact</a></li>
+            </ul>
+            <!-- Mobile View Ends Here -->
+        <!-- </nav> -->
+    </body>
+</html>
