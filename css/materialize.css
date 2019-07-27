@@ -12,8 +12,7 @@
 
 .hover {
   position: relative;
-  width: 90%;
-  max-width: 400px;
+  width: 100%;
   margin: auto;
   overflow: hidden;
 }
@@ -21,7 +20,7 @@
 .hover .hover-overlay {
   background: rgba(0,0,0,0.5);
   position: absolute;
-  height: 99%;
+  height: 100%;
   width: 100%;
   left: 0;
   top: 0;
@@ -40,7 +39,7 @@
 .hover .hover-overlay-light {
   background: rgba(255, 255, 255, 0.5);
   position: absolute;
-  height: 99%;
+  height: 100%;
   width: 100%;
   left: 0;
   top: 0;
